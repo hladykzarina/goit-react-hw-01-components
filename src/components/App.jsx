@@ -1,11 +1,12 @@
-import user from './Profile/user.json';
-import Profile from './Profile/Profile.jsx';
-
-import data from './Statistics/data.json';
-import Statistics from './Statistics/Statistics.jsx';
-
-import friends from './FriendList/friends.json';
-import FriendList from './FriendList/FriendList.jsx';
+import { Profile } from './Profile/profile';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './transaction/transactionHistory';
+import MyCounter from 'components/counter/counter';
+import user from 'data/user.json';
+import data from 'data/data.json';
+import friends from 'data/friends.json';
+import transaction from 'data/transaction.json';
 
 export const App = () => {
   return (
@@ -17,8 +18,10 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics data={data} />
       <FriendList friends={friends} />
+      <TransactionHistory transaction={transaction} />
+      <MyCounter initialValue1={0} initialValue2={0} />
     </div>
   );
 };

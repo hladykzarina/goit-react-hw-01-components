@@ -1,0 +1,20 @@
+.profileList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  background-color: #ffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profileItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e6dfdf;
+  padding: 10px 20px;
+}
+
+.qnt {
+  text-align: center;
+  font-size: 20px;
+}
