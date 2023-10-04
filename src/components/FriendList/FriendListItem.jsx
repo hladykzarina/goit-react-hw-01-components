@@ -1,13 +1,17 @@
-// import React from 'react';
+import css from '../FriendList/friendListItem.module.css';
+import clsx from 'clsx';
 
-// const FriendListItem = ({ avatar, name, isOnline }) => {
-// return (
-// <li>
-// <span class="status" statusType={isOnline}></span>
-// <img class="avatar" scr={avatar} alt="User avatar" width="48" />
-// <p class="name">{name}</p>
-// </li>
-// );
-// };
-
-// export default FriendListItem;
+export const FriendListItem = ({ avatar, name, isOnline }) => {
+  return (
+    <li class={css.item}>
+      <span
+        className={clsx(css.circle, {
+          [css.green]: isOnline === true,
+          [css.red]: isOnline === false,
+        })}
+      ></span>
+      <img class={css.avatar} scr={avatar} alt={name} width="48" />
+      <p class={css.name}>{name}</p>
+    </li>
+  );
+};
