@@ -1,4 +1,4 @@
-// import { profileUser } from './profileUser';
+import { UserStats } from './UserStats';
 import css from './profile.module.css';
 export const Profile = ({ avatar, username, tag, location, stats }) => {
   return (
@@ -10,22 +10,7 @@ export const Profile = ({ avatar, username, tag, location, stats }) => {
         <p className="location">{location}</p>
       </div>
 
-      {/* <ul
-    className='stats'
-    style={{
-        height: '50px',
-        display: 'flex',
-        gap: '15px',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 30,
-        color: '#010101',
-        listStyle: 'none',
-    }}
-    > */}
-      <profileUser stats={stats} />
-      {/*</ul>*/}
+      <UserStats stats={stats} />
     </div>
   );
 };

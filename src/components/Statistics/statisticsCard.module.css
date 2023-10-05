@@ -3,6 +3,6 @@
   display: flex;
   padding: 15px 15px;
   flex-direction: column;
-  border: 1px solid #e6dfdf;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid greenyellow;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
