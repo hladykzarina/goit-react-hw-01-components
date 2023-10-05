@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hladykzarina/goit-react-hw-01-components/static/css/main.43b70f69.css",
-    "main.js": "/hladykzarina/goit-react-hw-01-components/static/js/main.61646f38.js",
+    "main.css": "/hladykzarina/goit-react-hw-01-components/static/css/main.95986cd3.css",
+    "main.js": "/hladykzarina/goit-react-hw-01-components/static/js/main.c0697de4.js",
     "index.html": "/hladykzarina/goit-react-hw-01-components/index.html",
-    "main.43b70f69.css.map": "/hladykzarina/goit-react-hw-01-components/static/css/main.43b70f69.css.map",
-    "main.61646f38.js.map": "/hladykzarina/goit-react-hw-01-components/static/js/main.61646f38.js.map"
+    "main.95986cd3.css.map": "/hladykzarina/goit-react-hw-01-components/static/css/main.95986cd3.css.map",
+    "main.c0697de4.js.map": "/hladykzarina/goit-react-hw-01-components/static/js/main.c0697de4.js.map"
   },
   "entrypoints": [
-    "static/css/main.43b70f69.css",
-    "static/js/main.61646f38.js"
+    "static/css/main.95986cd3.css",
+    "static/js/main.c0697de4.js"
   ]
 }
